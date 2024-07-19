@@ -7,6 +7,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import BasicExample from './components/Seri'
+
+import Bingeh from "./components/Bingeh";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,7 +26,10 @@ export default function RootLayout({
       <body className={inter.className}>
         
         <BasicExample/>
-        {children}</body>
+        {children}
+        
+        <Bingeh/>
+        </body>
     </html>
   );
 }
