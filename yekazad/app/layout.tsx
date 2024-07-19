@@ -5,9 +5,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
 import BasicExample from './components/Seri'
-
+import 'bootstrap/dist/css/bootstrap.css'
 import Bingeh from "./components/Bingeh";
 const inter = Inter({ subsets: ["latin"] });
 
