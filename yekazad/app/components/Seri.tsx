@@ -20,7 +20,7 @@ function BasicExample() {
             <Nav.Link href="#link"></Nav.Link>
 
             <NavDropdown title="WEB SİTELERİ" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Tanıtım Siteleri</NavDropdown.Item>
+              <NavDropdown.Item href="/web">Tanıtım Siteleri</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Blog Siteleri
               </NavDropdown.Item>
@@ -33,8 +33,8 @@ function BasicExample() {
 
 
             <NavDropdown title="MOBİL UYGULAMALAR" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Android Uygulamaları</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/android">Android Uygulamaları</NavDropdown.Item>
+              <NavDropdown.Item href="/ios">
                 İos Uygulamaları  
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>
