@@ -9,10 +9,10 @@ import { Button } from 'react-bootstrap';
  function page() 
  {
 
-  const [mm, setmm] = useState("")
 async function mmmmm(params) {
   
-  const {gotin}=(await fetch("http://localhost:3000/api/malper")).json().then((gotin)=>setmm(gotin));
+  const  gotinaxer=(await fetch("http://localhost:3000/api/malper")).json();
+ console.log(gotinaxer)
   
 }
 
@@ -27,7 +27,7 @@ async function mmmmm(params) {
 
    
 
-    {mm}
+ 
     </div>
      )
 };

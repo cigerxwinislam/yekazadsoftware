@@ -10,8 +10,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+    <Navbar  expand="lg" className="bg-body-tertiary">
+      <Container >
         <Navbar.Brand href="#home">Yekazad Software Center</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

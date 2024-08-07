@@ -4,17 +4,18 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 
+export var gotinaxer :any="Selam Aleykum";
 export  async function POST(
   req: NextRequest,
  
 ) {
 
-  const  name  = await req.json();
+  const  {  Agahi }  = await req.json();
  
 
 
-
-  console.log(name)
-  return 
+gotinaxer=Agahi
+  console.log(Agahi)
+  return NextResponse.json({Agahi})
 }
 

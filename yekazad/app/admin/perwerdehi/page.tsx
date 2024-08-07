@@ -4,24 +4,26 @@
 
 import { FormEvent } from 'react'
  
+import { useState } from 'react'
 export default function Page() {
+  const [Agahi, setAgahi] = useState("")
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
  
-    const formData = new FormData(event.currentTarget)
-    const response = await fetch('/api/peyam', {
+    fetch('/api/peyam', {
       method: 'POST',
-      body: formData,
+      body: JSON.stringify({Agahi}),
+
+
     })
- 
+
     // Handle response if necessary
-    const data = await response.json()
     // ...
   }
  
   return (
     <form onSubmit={onSubmit}>
-      <input type="text" name="name" />
+      <input onChange={(e)=>setAgahi(e.target.value)} type="text" name="name" />
       <button type="submit">Submit</button>
     </form>
   )
