@@ -5,12 +5,12 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
-export default function Bingeh() {
+export default function Footer() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
+          <span>Bize Ulaşın</span>
         </div>
 
         <div>
@@ -41,77 +41,76 @@ export default function Bingeh() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                Yakutlar Peyzaj
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+           Her türlü peyzaj işi yapılır.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Hizmetlerimiz</h6>
               <p>
-                <a href='/admin' className='text-reset'>
-                 ...
+                <a href='#!' className='text-reset'>
+                  Bahçe Peyzajı
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                Bitkilendirme
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                Danışmanlık
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Çimlendirme
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Müşteri Memnuniyeti</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Kısa zamanda kaliteli iş
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Bütçeye uygun ve çözümcü
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Estetik açıdan zengin sonuçlar
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Bize Ulaşın</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+               İstanbul Tuzla
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+               akif@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" />  05443404645
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" />  
               </p>
             </MDBCol>
           </MDBRow>
@@ -119,10 +118,12 @@ export default function Bingeh() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+        © powered by :
+        <a className='text-reset fw-bold' href='https://www.ipssolidarity.com/'>
+          yekazadsoftwarecenter.com
         </a>
+
+<br></br>        <a href='/admin'>...</a>
       </div>
     </MDBFooter>
   );

@@ -1,23 +1,41 @@
-
+// Bismillahirahmanirahim
 
 "use client"
 
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+import 'bootstrap/dist/css/bootstrap.css'
 
-function CardExample(props:any) {
+import Image from 'next/image';
+
+import nozdeh from '/public/19.jpeg'
+import { Button } from 'react-bootstrap';
+function KitchenSinkExample(props:any) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card style={{ width: '25rem' }}>
+ <Image
+      src={props.wene}
+      alt="Picture of the author"
+       width={397} 
+      height={397} 
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    />
       <Card.Body>
         <Card.Title>{props.nav}</Card.Title>
         <Card.Text>
-          {props.nivis}
+     {props.nivis}
         </Card.Text>
-        <Button variant="primary">... </Button>
+      </Card.Body>
+    
+      <Card.Body>
+
+
+
+    <Button href='/hizmetler'>{props.bttn}</Button>
       </Card.Body>
     </Card>
   );
 }
 
-export default CardExample;
+export default KitchenSinkExample;

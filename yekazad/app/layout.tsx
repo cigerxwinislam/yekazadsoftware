@@ -1,18 +1,24 @@
-// Bismillahirahmanirahmanirahim
+// Bismillahirahmanirahim
 
 
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import BasicExample from './components/Seri'
+import BasicExample from "./components/nav";
 import 'bootstrap/dist/css/bootstrap.css'
-import Bingeh from "./components/Bingeh";
+import Footer from "./components/footer";
+
+
+
+import { Alert } from "react-bootstrap";
+import { Tegihistin } from "./components/tegihistin";
 const inter = Inter({ subsets: ["latin"] });
 
+
 export const metadata: Metadata = {
-  title: "Yekazad Nivisbari / Yazılım Hizmetleri",
-  description: "Her türlü yazılım hizmeti verilir. Kargeha Nivîsbarî yê",
+  title: "Yakutlar Peyzaj",
+  description: "Peyzaj Mimarlığı",
 };
 
 export default function RootLayout({
@@ -22,12 +28,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{background:'green'}} className={inter.className}>
+      <body style={{background:"green",color:"white"}} className={inter.className}>
         
         <BasicExample/>
         {children}
-        
-        <Bingeh/>
+    
+<Tegihistin />
+
+        <Footer/>
         </body>
     </html>
   );
