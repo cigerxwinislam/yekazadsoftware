@@ -17,8 +17,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Yakutlar Peyzaj",
-  description: "Peyzaj Mimarlığı",
+  title: "Yekazad Software Center",
+  description: "Kargeha Nivîsbarîyê",
 };
 
 export default function RootLayout({
