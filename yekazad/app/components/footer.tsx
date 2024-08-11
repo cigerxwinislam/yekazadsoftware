@@ -41,10 +41,10 @@ export default function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Yakutlar Peyzaj
+               Yekazad Software Center
               </h6>
               <p>
-           Her türlü peyzaj işi yapılır.
+           Her türlü yazılım desteği sağlanır 
               </p>
             </MDBCol>
 
@@ -52,12 +52,12 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Hizmetlerimiz</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Bahçe Peyzajı
+                  
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                Bitkilendirme
+                
                 </a>
               </p>
               <p>
@@ -67,7 +67,7 @@ export default function Footer() {
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Çimlendirme
+                  
                 </a>
               </p>
             </MDBCol>
@@ -100,14 +100,14 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Bize Ulaşın</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-               İstanbul Tuzla
+               Agirî/Turkey
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-               akif@gmail.com
+               yekazad@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" />  05443404645
+                <MDBIcon icon="phone" className="me-3" />  05549765692
               </p>
               <p>
                 <MDBIcon icon="print" className="me-3" />  
@@ -119,8 +119,8 @@ export default function Footer() {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © powered by :
-        <a className='text-reset fw-bold' href='https://www.ipssolidarity.com/'>
-          yekazadsoftwarecenter.com
+        <a className='text-reset fw-bold' href='https://www.yekazadsofwarecenter.vercel.app'>
+          yekazad.com
         </a>
 
 <br></br>        <a href='/admin'>...</a>
