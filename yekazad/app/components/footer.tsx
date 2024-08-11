@@ -120,7 +120,7 @@ export default function Footer() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © powered by :
         <a className='text-reset fw-bold' href='https://www.yekazadsofwarecenter.vercel.app'>
-          yekazad.com
+          yekazad software center 
         </a>
 
 <br></br>        <a href='/admin'>...</a>
