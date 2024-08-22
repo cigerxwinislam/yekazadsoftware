@@ -18,7 +18,7 @@ function BasicExample() {
             <Nav.Link href="/">Anasayfa</Nav.Link>
             <Nav.Link href="/kurumsal">Hakkımızda</Nav.Link>
             <NavDropdown title="Yapay Zeka " id="basic-nav-dropdown">
-              <NavDropdown.Item href="/hizmetler/">Görüntü İşleme</NavDropdown.Item>
+              <NavDropdown.Item href="/jiriyacekiri/">Görüntü İşleme</NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
                 Nesne Tanımlama
               </NavDropdown.Item>

@@ -25,7 +25,7 @@ function Teketin() {
   function teketin() {
     
     if (nav=="Akif"&& passw=="akif0434") {
-      router.push("/admin/panel")
+      router.push("/admin/")
     }
     else{
       setnivis("Yanlış Girdiniz!")

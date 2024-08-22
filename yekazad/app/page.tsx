@@ -34,7 +34,7 @@ function page() {
      
 <Container>
 <Alert style={{justifyContent:'center',background:'white',margin:'7px'}}>
-  
+<h1>Yapım Aşamasında</h1>  
 
 
 

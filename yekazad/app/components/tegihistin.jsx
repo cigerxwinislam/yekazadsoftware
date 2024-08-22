@@ -9,7 +9,7 @@ import { FaPhone } from "react-icons/fa";
 import { WhatsAppWidget } from 'react-whatsapp-widget';
 export function Tegihistin() {
   return (<div>
-    <Alert style={{margin:7}} >
+    <Alert style={{margin:7 ,background:"white"}} >
      <Button  href="tel:+905549765692"><FaPhone  /></Button> Telefon Et
 
 
