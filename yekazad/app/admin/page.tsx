@@ -1,51 +1,28 @@
 // Bismillahirahmanirahim
 
-"use client"
 
-import React from 'react';
-import {
-  MDBContainer,
-  MDBInput,
 
-  MDBBtn,
+import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
  
+type Repo = {
+  name: string
+  stargazers_count: number
 }
-from 'mdb-react-ui-kit';
-
-import 'bootstrap/dist/css/bootstrap.css'
-import { useState } from 'react';
-import { useRouter } from 'next/navigation'
-import { Button } from 'react-bootstrap';
-function Teketin() {
- const router=useRouter();
-  const [passw, setpassw] = useState("");
-  const [nav, setnav] = useState("");
-
-  const [nivis, setnivis] = useState("")
-  function teketin() {
-    
-    if (nav=="Akif"&& passw=="akif0434") {
-      router.push("/admin/")
-    }
-    else{
-      setnivis("Yanlış Girdiniz!")
-    }
-  }
+ 
+export const getServerSideProps = (async () => {
+  // Fetch data from external API
+  const res = await fetch('https://api.github.com/repos/vercel/next.js')
+  const repo: Repo = await res.json()
+  // Pass data to the page via props
+  return { props: { repo } }
+}) satisfies GetServerSideProps<{ repo: Repo }>
+ 
+export default function Page({
+  repo,
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
-    <MDBContainer className="p-3 my-5 d-flex flex-column w-50">
-
-     <h1>Yönetici Paneli</h1>
-      <MDBInput wrapperClass='mb-4' label='Adınız' id='form1' type='text' onChange={(e)=>setnav(e.target.value)}/>
-      <MDBInput wrapperClass='mb-4' label='Şifreniz' id='form2' type='password' onChange={(e)=>setpassw(e.target.value)}/>
-
-      
-
-      <Button className="mb-4" onClick={teketin}>Giriş Yapın</Button>
-
-      <a style={{color:'red'}}>{nivis}</a>
-
-    </MDBContainer>
-  );
+    <main>
+      <p>{repo.stargazers_count}</p>
+    </main>
+  )
 }
-
-export default Teketin;
