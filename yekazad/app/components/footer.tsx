@@ -123,7 +123,7 @@ export default function Footer() {
           yekazad software center 
         </a>
 
-<br></br>        <a href='/admin'>...</a>
+<br></br>        <a href='/login'>...</a>
       </div>
     </MDBFooter>
   );

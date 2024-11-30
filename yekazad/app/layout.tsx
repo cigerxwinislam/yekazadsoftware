@@ -13,6 +13,7 @@ import Footer from "./components/footer";
 
 import { Alert } from "react-bootstrap";
 import { Tegihistin } from "./components/tegihistin";
+import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 
