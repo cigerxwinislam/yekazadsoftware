@@ -55,7 +55,7 @@ const Login = () => {
   return (
     <Wrapper className={styles.root}>
       <div className={styles.main}>
-        <h1 className={styles.title}>Giriş Yapın</h1>
+        <h1 className={styles.title}>Sign in</h1>
         <form onSubmit={onSubmit}>
           <Input
             ref={emailRef}
@@ -84,12 +84,15 @@ const Login = () => {
             size="large"
             loading={isLoading}
           >
-            Giriş Yap
+            Sign in
           </Button>
           <Spacer size={0.25} axis="vertical" />
           <Link href="/forget-password" passHref>
             <ButtonLink type="success" size="large" variant="ghost">
-              Şifremi unuttum 
+
+
+
+           forget password
             </ButtonLink>
           </Link>
         </form>
@@ -98,7 +101,8 @@ const Login = () => {
         <Link href="/sign-up" passHref>
           <TextLink color="link" variant="highlight">
 
-         Üye değil misiniz? Üye olun
+
+            ...
           </TextLink>
         </Link>
       </div>
