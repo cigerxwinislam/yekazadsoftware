@@ -32,7 +32,7 @@ function KitchenSinkExample(props:any) {
 
 
 
-    <Button href='/hizmetler'>{props.bttn}</Button>
+    <Button href='/hizmetler'>More...</Button>
       </Card.Body>
     </Card>
   );
