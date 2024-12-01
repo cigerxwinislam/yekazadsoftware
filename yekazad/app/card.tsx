@@ -2,20 +2,20 @@
 
 "use client"
 
+import React from 'react';
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.css'
 
 import Image from 'next/image';
 
-import nozdeh from '/public/19.jpeg'
 import { Button } from 'react-bootstrap';
+
 function KitchenSinkExample(props:any) {
   return (
     <Card style={{ width: '25rem' }}>
  <Image
       src={props.wene}
-      alt="Picture of the author"
+      alt=""
        width={397} 
       height={397} 
       // blurDataURL="data:..." automatically provided
