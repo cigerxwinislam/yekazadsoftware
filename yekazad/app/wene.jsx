@@ -18,13 +18,13 @@ function UncontrolledExample() {
 
     <Col>
     
-    <KitchenSinkExample wene nav="Web siteleri"/>
+    <KitchenSinkExample wene="https://dynomapper.com/images/5_tips_for_creating_a_great_website.jpg" nav="Web sites"/>
 
     </Col>
 
     <Col>
     
-    <KitchenSinkExample wene nav="Web siteleri"/>
+    <KitchenSinkExample wene="https://images.prismic.io//intuzwebsite/2caf3e7f-1704-42e2-908f-3d089da3e3ac_The+Ultimate+Guide+to+Android+App+Development.png?w=1200&q=80&auto=format,compress&fm=png8" nav="Android Apps"/>
 
     </Col>
 
@@ -38,15 +38,15 @@ function UncontrolledExample() {
 
     <Col>
     
-    <KitchenSinkExample wene nav="Web siteleri"/>
+    <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Ios Apps"/>
 
     </Col>
 </Row>
 
 
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Popular</h3>
+          <p>Have your own website or mobile app</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -58,13 +58,13 @@ function UncontrolledExample() {
 
 <Col>
 
-<KitchenSinkExample wene nav="Web siteleri"/>
+<KitchenSinkExample wene="https://atriainnovation.com/uploads/2023/11/portada-9.jpg" nav="Machine Learning"/>
 
 </Col>
 
 <Col>
 
-<KitchenSinkExample wene nav="Web siteleri"/>
+<KitchenSinkExample wene="https://media.licdn.com/dms/image/v2/D4D12AQFrE9rkSx842w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1709132883621?e=2147483647&v=beta&t=cO5fR7G0sPdA0imRzGy--Ni7Fj05I6wgEVkSxNLSNVc" nav="Robotics"/>
 
 </Col>
 
@@ -78,14 +78,14 @@ function UncontrolledExample() {
 
 <Col>
 
-<KitchenSinkExample wene nav="Web siteleri"/>
+<KitchenSinkExample wene="https://learn.microsoft.com/tr-tr/windows-app/media/get-started-connect-devices-desktops-apps/windows-welcome.png" nav="Desktop Apps"/>
 
 </Col>
 </Row>
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Useful Solutions</h3>
+          <p>Make it easy with modern Aproachs</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -98,13 +98,13 @@ function UncontrolledExample() {
 
 <Col>
 
-<KitchenSinkExample wene nav="Web siteleri"/>
+<KitchenSinkExample wene="https://cdn.hosting.com.tr/bilgi-bankasi/wp-content/uploads/2024/06/linux-komutlari.jpg" nav="Linux tutorials"/>
 
 </Col>
 
 <Col>
 
-<KitchenSinkExample wene nav="Web siteleri"/>
+<KitchenSinkExample wene nav="Penteration Tests"/>
 
 </Col>
 
@@ -118,14 +118,15 @@ function UncontrolledExample() {
 
 <Col>
 
-<KitchenSinkExample wene nav="Web siteleri"/>
+<KitchenSinkExample wene nav="Math & Requirements"/>
 
 </Col>
 </Row>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Learning & Course</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+
+          For developers live coding..
           </p>
         </Carousel.Caption>
       </Carousel.Item>
