@@ -15,7 +15,7 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/kurumsal">Hakkımızda</Nav.Link>
+            <Nav.Link href="/kurumsal">About </Nav.Link>
             <NavDropdown title="Artificial Intelligence " id="basic-nav-dropdown">
               <NavDropdown.Item href="/jiriyacekiri/">Görüntü İşleme</NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
