@@ -2,6 +2,7 @@
 
 "use client"
 
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -17,15 +18,23 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="/kurumsal">About </Nav.Link>
             <NavDropdown title="Artificial Intelligence " id="basic-nav-dropdown">
-              <NavDropdown.Item href="/jiriyacekiri/">Görüntü İşleme</NavDropdown.Item>
+              <NavDropdown.Item href="/jiriyacekiri/">Image Processing</NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
-                Nesne Tanımlama
+                
+             Object Detection
               </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/uygulama">
-              Ses İşleme</NavDropdown.Item>
+              
+              Audio/Sound Processing</NavDropdown.Item>
 
               <NavDropdown.Item href="hizmetler/uygulama">
-              Doğal Dil İşleme</NavDropdown.Item>
+              
+              
+              
+              
+              
+              Natural Language Processing
+              </NavDropdown.Item>
             </NavDropdown>
 
 
@@ -34,29 +43,29 @@ function BasicExample() {
 
 
             <NavDropdown title="Web Sites & Apps" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/hizmetler/"> Tanıtım Siteleri</NavDropdown.Item>
+              <NavDropdown.Item href="/hizmetler/"> Personal</NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
-                Blog Siteleri 
+                Blog Sites
               </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/uygulama">
-              Sosyal Medya Siteleri</NavDropdown.Item>
+              Social Media </NavDropdown.Item>
             
 
 
             
               <NavDropdown.Item href="hizmetler/uygulama">
-              E ticaret Siteleri</NavDropdown.Item>
+              E Commerce</NavDropdown.Item>
             </NavDropdown>
 
 
     
             <NavDropdown title="Mobile Apps " id="basic-nav-dropdown">
-              <NavDropdown.Item href="/hizmetler/">Android Uygulamaları</NavDropdown.Item>
+              <NavDropdown.Item href="/hizmetler/">Android </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
-                Ios Uygulamaları
+                Ios 
               </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/uygulama">
-              Çoklu Platform Uygulamaları</NavDropdown.Item>
+              Cross Platform</NavDropdown.Item>
             
             </NavDropdown>
 
@@ -66,27 +75,27 @@ function BasicExample() {
                 Rasberry pi
               </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/uygulama">
-              Otonom</NavDropdown.Item>
+              Auto</NavDropdown.Item>
             
             </NavDropdown>
 
             <NavDropdown title="Courses & Education" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/hizmetler/">Android Dersleri</NavDropdown.Item>
+              <NavDropdown.Item href="/hizmetler/">Android </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
-                Web Dersleri
+                Web 
               </NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/uygulama">
-              Yapay Zeka Dersleri</NavDropdown.Item>
+             Machne Learning   </NavDropdown.Item>
 
               
               <NavDropdown.Item href="hizmetler/uygulama">
-              Robotik Programlama Dersleri</NavDropdown.Item>
+              Robotics</NavDropdown.Item>
             
 
 
             
               <NavDropdown.Item href="hizmetler/uygulama">
-              Siber Güvenlik Dersleri</NavDropdown.Item>
+              Siber Security</NavDropdown.Item>
             </NavDropdown>
 
 
