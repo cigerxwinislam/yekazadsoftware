@@ -49,10 +49,17 @@ function UncontrolledExample() {
 
     </Col>
 
+
 </Row>
 
 
+
+    </Carousel.Item>
+
+
     
+
+    <Carousel.Item>
 
 
       <Row>
@@ -93,7 +100,13 @@ function UncontrolledExample() {
 </Row>
 
    
+    </Carousel.Item>
 
+
+
+
+
+    <Carousel.Item>
 
       <Row>
 
@@ -136,6 +149,11 @@ function UncontrolledExample() {
     </Col>
 </Row>
       
+    <Carousel.Item>
+
+
+</Carousel>
+
   );
 }
 
