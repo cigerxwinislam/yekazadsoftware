@@ -17,7 +17,7 @@ function mmpage() {
 
 
       <Index/>
-  <UncontrolledExample/>
+  
 
 
 
