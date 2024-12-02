@@ -45,7 +45,7 @@ function UncontrolledExample() {
 
     <Col>
     
-    <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Ios Apps"/>
+    <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Unity "/>
 
     </Col>
 
