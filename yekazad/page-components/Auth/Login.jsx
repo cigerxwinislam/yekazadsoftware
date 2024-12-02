@@ -25,7 +25,7 @@ const Login = () => {
   const router = useRouter();
   useEffect(() => {
     if (isValidating) return;
-    if (user) router.replace('/feed');
+    if (user) router.replace('/malper/feed');
   }, [user, router, isValidating]);
 
   const onSubmit = useCallback(
