@@ -35,12 +35,20 @@ function UncontrolledExample() {
 
 
 
+    <Col>
+    
+    <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Ios Apps"/>
+
+    </Col>
+
+
 
     <Col>
     
     <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Ios Apps"/>
 
     </Col>
+
 </Row>
 
 
@@ -81,6 +89,13 @@ function UncontrolledExample() {
 <KitchenSinkExample wene="https://learn.microsoft.com/tr-tr/windows-app/media/get-started-connect-devices-desktops-apps/windows-welcome.png" nav="Desktop Apps"/>
 
 </Col>
+
+
+    <Col>
+    
+    <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Ios Apps"/>
+
+    </Col>
 </Row>
 
         <Carousel.Caption>
@@ -121,6 +136,17 @@ function UncontrolledExample() {
 <KitchenSinkExample wene nav="Math & Requirements"/>
 
 </Col>
+
+
+
+
+
+
+    <Col>
+    
+    <KitchenSinkExample wene="https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/article/Apple-EU-Digital-Markets-Act-updates-hero_big.jpg.small.jpg" nav="Ios Apps"/>
+
+    </Col>
 </Row>
         <Carousel.Caption>
           <h3>Learning & Course</h3>
