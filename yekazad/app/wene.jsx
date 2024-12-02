@@ -52,13 +52,7 @@ function UncontrolledExample() {
 </Row>
 
 
-        <Carousel.Caption>
-          <h3>Popular</h3>
-          <p>Have your own website or mobile app</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-
+    
 
 
       <Row>
@@ -98,14 +92,7 @@ function UncontrolledExample() {
     </Col>
 </Row>
 
-        <Carousel.Caption>
-          <h3>Useful Solutions</h3>
-          <p>Make it easy with modern Aproachs</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-
-
+   
 
 
       <Row>
@@ -148,15 +135,7 @@ function UncontrolledExample() {
 
     </Col>
 </Row>
-        <Carousel.Caption>
-          <h3>Learning & Course</h3>
-          <p>
-
-          For developers live coding..
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+      
   );
 }
 
