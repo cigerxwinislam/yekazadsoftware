@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Karel Ağrı Fiber Elektronik</title>
+        <title>Yekazad Software Center</title>
         <meta
           key="viewport"
           name="viewport"
@@ -26,12 +26,12 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="Karel Ağrı Fiber Elektronik"
+          content="Yekazad Software Center"
         />
-        <meta property="og:title" content="Karel Ağrı Fiber Elektronik" />
+        <meta property="og:title" content="Yekazad Software Center" />
         <meta
           property="og:description"
-          content="Karel Ağrı Fiber Elektronik"
+          content="Yekazad Software Center"
         />
         <meta
           property="og:image"
