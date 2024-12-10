@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
         />
       </Head>
 
-<Alert>Supports Palastina and Rojava !</Alert>
+<Alert variant='secondary'>Supports Palastina and Rojava !!!</Alert>
 
 
       <MmBasicExample/>
