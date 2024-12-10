@@ -1,6 +1,6 @@
-// Bismillahirahmanirahim
+// BİSMİLLAHİRAHMANİRAHİM
 
-"use client"
+
 
 import { Button } from '@/components/Button';
 import { Container, Spacer } from '@/components/Layout';
@@ -34,7 +34,7 @@ const PostList = () => {
         ))}
         <Container justifyContent="center">
           {isReachingEnd ? (
-            <Text color="secondary">Nothing else founded </Text>
+            <Text color="secondary">Başka proje mevcut değil henüz </Text>
           ) : (
             <Button
               variant="ghost"
@@ -42,7 +42,7 @@ const PostList = () => {
               loading={isLoadingMore}
               onClick={() => setSize(size + 1)}
             >
-              More
+              Daha fazla 
             </Button>
           )}
         </Container>

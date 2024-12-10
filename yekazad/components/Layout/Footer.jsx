@@ -1,6 +1,6 @@
-// Bismillahirahmanirahim
 
-"use client"
+
+
 
 import { Text, TextLink } from '@/components/Text';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
@@ -13,13 +13,22 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Wrapper>
         <Text color="accents-7">
+
+           
+        |   <span>Allahume sali ala seyyidina Muhammed ve ala alihi ve sahbihi,ecmain <br></br>   | Elhamdulillahirabbulalemin </span>
+          |  
+        
+        
+        <br></br>
           Bi Amadekarîya{' '}
           <TextLink href="https://yekazadsoftwarecenter.vercel.app/" color="link">
             Yekazad Software Center
           </TextLink>
-          ê |..
-          <span> </span>Ji kerema xwe re tenê bi kurdî û dûrî neteweperwerîyê ye binivîsin...|
-        </Text>
+          ê 
+         
+       
+       
+       </Text>
         <Spacer size={1} axis="vertical" />
         <ThemeSwitcher />
       </Wrapper>

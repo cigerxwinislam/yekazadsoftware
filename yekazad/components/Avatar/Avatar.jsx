@@ -1,7 +1,3 @@
-// Bismillahirahmanirahim
-
-"use client"
-
 import styles from './Avatar.module.css';
 
 const Avatar = ({ size, username, url }) => {

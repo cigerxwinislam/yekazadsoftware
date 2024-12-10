@@ -1,6 +1,6 @@
 // Bismillahirahmanirahim
 
-"use client"
+
 
 import { Avatar } from '@/components/Avatar';
 import { Button, ButtonLink } from '@/components/Button';
@@ -8,13 +8,14 @@ import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import { fetcher } from '@/lib/fetch';
 import { useCurrentUser } from '@/lib/user';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import Container from './Container';
 import styles from './Nav.module.css';
 import Spacer from './Spacer';
 import Wrapper from './Wrapper';
+import { SearchBar } from '../mmger';
 
 const UserMenu = ({ user, mutate }) => {
   const menuRef = useRef();
@@ -110,7 +111,7 @@ const Nav = () => {
           justifyContent="space-between"
         >
           <Link href="/">
-            <a className={styles.logo}>Firdevs</a>
+            <a className={styles.logo}>Anasayfa</a>
           </Link>
           <Container>
             {user ? (
@@ -119,22 +120,10 @@ const Nav = () => {
               </>
             ) : (
               <> 
-                <Link passHref href="/login">
-                  <ButtonLink
-                    size="small"
-                    type="success"
-                    variant="ghost"
-                    color="link"
-                  >
-                    Giriş           
-                     </ButtonLink>
-                </Link>
+              
                 <Spacer axis="horizontal" size={0.25} />
-                <Link passHref href="/sign-up">
-                  <Button size="small" type="success">
-                    Üye Ol
-                  </Button>
-                </Link>
+                
+              <SearchBar/>
               </>
             )}
           </Container>

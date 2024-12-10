@@ -1,7 +1,3 @@
-// Bismillahirahmanirahim
-
-"use client"
-
 import { LoadingDots } from '@/components/LoadingDots';
 import clsx from 'clsx';
 import { forwardRef } from 'react';

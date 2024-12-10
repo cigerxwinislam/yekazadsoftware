@@ -1,44 +1,40 @@
 // Bismillahirahmanirahim
 
-"use client"
+
 
 import { ButtonLink } from '@/components/Button';
 import { Container, Spacer, Wrapper } from '@/components/Layout';
 import Link from 'next/link';
 import styles from './Hero.module.css';
-
+import { WhatsAppWidget } from 'react-whatsapp-widget';
+import { Alert } from 'react-bootstrap';
 const Hero = () => {
   return (
     <Wrapper>
-      <div>
+      <div style={{backgroundImage:
+                "url('https://www.98elektronik.com/wp-content/uploads/2020/11/fiber-98-elektronik-768x416.jpg')",
+           
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+        }}>
         <h1 className={styles.title}>
-          <span className={styles.nextjs}>Yek</span>
-          <span className={styles.mongodb}>Azad</span>
-          <span>Software</span>
+          <span className={styles.nextjs}>Karel</span>
+          <span className={styles.mongodb}>Fiber</span>
+          <span className={styles.mongodb}>Elektronik</span>
 
-          <span>Center</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
-          
-          <Spacer axis="horizontal" size={1} />
-          <Container>
-            <ButtonLink
-              href="/malper"
-              type="secondary"
-              className={styles.button}
-            >
-              Discover
-            </ButtonLink>
-          </Container>
+        <Alert style={{background:"#40FF40"}}> 
+         
+        
+        <WhatsAppWidget message=" Whatsapptan Mesajınızı Yazın" inputPlaceHolder="Mesajınızı Yazın" replyTimeText="En kısa zamanda dönüş yapılacaktır" sendButtonText="Gönder" companyName="" phoneNumber="+905436840504" />
+
+        </Alert>
+  
         </Container>
         <p className={styles.subtitle}>
         </p>
 
-      Slav li Şex Ehmed ê Xanî :
-
-"Nînin li me fikrû zikrek
-
- Nakin bi zebanî hemd û şukrek"
       </div>
     </Wrapper>   
   );

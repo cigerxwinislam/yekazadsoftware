@@ -1,7 +1,3 @@
-// BİSMİLAHİRAHMANİRAHİM
-
-
-
 import { Button } from '@/components/Button';
 import { ButtonLink } from '@/components/Button/Button';
 import { Input } from '@/components/Input';
@@ -10,7 +6,7 @@ import { TextLink } from '@/components/Text';
 import { fetcher } from '@/lib/fetch';
 import { useCurrentUser } from '@/lib/user';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import styles from './Auth.module.css';
@@ -25,7 +21,7 @@ const Login = () => {
   const router = useRouter();
   useEffect(() => {
     if (isValidating) return;
-    if (user) router.replace('/malper');
+    if (user) router.replace('/feed');
   }, [user, router, isValidating]);
 
   const onSubmit = useCallback(
@@ -55,7 +51,7 @@ const Login = () => {
   return (
     <Wrapper className={styles.root}>
       <div className={styles.main}>
-        <h1 className={styles.title}>Sign in</h1>
+        <h1 className={styles.title}>Giriş Yapın</h1>
         <form onSubmit={onSubmit}>
           <Input
             ref={emailRef}
@@ -84,15 +80,12 @@ const Login = () => {
             size="large"
             loading={isLoading}
           >
-            Sign in
+            Giriş Yap
           </Button>
           <Spacer size={0.25} axis="vertical" />
           <Link href="/forget-password" passHref>
             <ButtonLink type="success" size="large" variant="ghost">
-
-
-
-           forget password
+              Şifremi unuttum 
             </ButtonLink>
           </Link>
         </form>
@@ -101,8 +94,7 @@ const Login = () => {
         <Link href="/sign-up" passHref>
           <TextLink color="link" variant="highlight">
 
-
-            ...
+       .
           </TextLink>
         </Link>
       </div>

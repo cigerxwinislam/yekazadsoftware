@@ -1,6 +1,6 @@
 // Bismillahirahmanirahim
 
-"use client"
+
 
 import { Avatar } from '@/components/Avatar';
 import { Button } from '@/components/Button';
@@ -53,7 +53,7 @@ const PosterInner = ({ user }) => {
           ref={contentRef}
           className={styles.input}
           placeholder={`Beyanda bulunun , ${user.name}?`}
-          ariaLabel={`isabet maksat olsa niyet esas alınmıştır, ${user.name}?`}
+          ariaLabel={`Proje açıklamasını yazınız, ${user.name}?`}
         />
         <Button type="success" loading={isLoading}>
           Yayınla
@@ -70,21 +70,13 @@ const Poster = () => {
   return (
     <Wrapper>
       <div className={styles.root}>
-        <h5 className={styles.heading}>Here is for developers and contains educating contents.You can find some articles or solutions about development   📗 Dembaş 🌲</h5>
+        <h5 className={styles.heading}>Karel Ağrı Fiber Elektronik Yetkili Servisin Projeleri</h5>
         {loading ? (
           <LoadingDots>Amade dibe..</LoadingDots>
         ) : data?.user ? (
           <PosterInner user={data.user} />
         ) : (
-          <Text color="secondary">
-            To join us {' '}
-            <Link href="/login" passHref>
-              <TextLink color="link" variant="highlight">
-              login 
-              </TextLink>
-            </Link>{' '}
-           please... 
-          </Text>
+        <a>Tüm projeler profildedir.</a>
         )}
       </div>
     </Wrapper>

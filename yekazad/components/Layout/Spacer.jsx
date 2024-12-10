@@ -1,7 +1,3 @@
-//  Bismillahirahmanirahim
-
-"use client"
-
 const Spacer = ({ size, axis }) => {
   const width = axis === 'vertical' ? 1 : size * 24;
   const height = axis === 'horizontal' ? 1 : size * 24;

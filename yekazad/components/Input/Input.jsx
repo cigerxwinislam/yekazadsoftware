@@ -1,6 +1,6 @@
 // Bismillahirahmanirahim
 
-"use client"
+
 
 import clsx from 'clsx';
 import { forwardRef } from 'react';
@@ -26,11 +26,23 @@ const Input = forwardRef(function Input(
         <input
           type={htmlType}
           autoComplete={autoComplete}
+          
           placeholder={placeholder}
           ref={ref}
           className={clsx(styles.input, size && styles[size])}
           aria-label={ariaLabel}
           required={required}
+
+
+
+
+
+
+
+
+
+
+
         />
       </label>
     </div>

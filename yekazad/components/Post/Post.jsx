@@ -1,6 +1,6 @@
-// Bismillahirahmanirahim
 
-"use client"
+
+
 
 import { Avatar } from '@/components/Avatar';
 import { Container } from '@/components/Layout';
