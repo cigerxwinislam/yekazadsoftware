@@ -16,7 +16,7 @@ export const SearchBar = () => {
         <input
           onChange={handleChange}
           type="search"
-          placeholder="Ara....."
+          placeholder="search...."
           value={searchTerm}
         />
       </div>
