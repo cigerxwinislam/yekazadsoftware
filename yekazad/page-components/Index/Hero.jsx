@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <Wrapper>
       <div style={{backgroundImage:
-                "url('https://www.98elektronik.com/wp-content/uploads/2020/11/fiber-98-elektronik-768x416.jpg')",
+                "url('https://cdn.wmaraci.com/nedir/yazilim.png')",
            
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
