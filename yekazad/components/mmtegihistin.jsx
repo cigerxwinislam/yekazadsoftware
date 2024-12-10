@@ -14,7 +14,7 @@ export function Tegihistin() {
 
 <div style={{position:"fixed",bottom:"0px"}}>
     <Alert style={{margin:7,color:"white",background:"gray"}} >
-     <Button  href="tel:905436840504"><FaPhone  /></Button> Merkez <span></span>
+     <Button  href="tel:905549765692"><FaPhone  /></Button> Merkez <span></span>
      </Alert>
 
 
@@ -27,7 +27,7 @@ export function Tegihistin() {
 <div style={{position:"fixed",bottom:"0px",right:"0px"}}>
     <Alert style={{margin:7,color:"white",background:"gray"}} >
    
-     <Button  href="tel:905436840504"><FaPhone  /></Button> Ağrı
+     <Button  href="tel:905549765692"><FaPhone  /></Button> Ağrı
 
      </Alert>
 

@@ -18,16 +18,16 @@ const Hero = () => {
             backgroundRepeat: "no-repeat",
         }}>
         <h1 className={styles.title}>
-          <span className={styles.nextjs}>Karel</span>
-          <span className={styles.mongodb}>Fiber</span>
-          <span className={styles.mongodb}>Elektronik</span>
+          <span className={styles.mongodb}>Yekazad</span>
+          <span className={styles.nextjs}>Software</span>
+          <span className={styles.mongodb}>Center</span>
 
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
         <Alert style={{background:"#40FF40"}}> 
          
         
-        <WhatsAppWidget message=" Whatsapptan Mesajınızı Yazın" inputPlaceHolder="Mesajınızı Yazın" replyTimeText="En kısa zamanda dönüş yapılacaktır" sendButtonText="Gönder" companyName="" phoneNumber="+905436840504" />
+        <WhatsAppWidget message="Send your message through whatsapp" inputPlaceHolder="Type your message" replyTimeText="You will be answered as soon as possible " sendButtonText="Send" companyName="" phoneNumber="+905549765692" />
 
         </Alert>
   

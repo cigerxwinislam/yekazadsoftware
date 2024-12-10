@@ -111,7 +111,7 @@ const Nav = () => {
           justifyContent="space-between"
         >
           <Link href="/">
-            <a className={styles.logo}>Anasayfa</a>
+            <a className={styles.logo}>Home</a>
           </Link>
           <Container>
             {user ? (
